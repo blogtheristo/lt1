@@ -1,0 +1,78 @@
+@{
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title = "Lifetime Oy";
+}
+@{
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title2 = "Lifetime Consulting";
+}
+@{
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title3 = "Lifetime Studios";
+}
+@{
+    Layout = "~/_SiteLayout.cshtml";
+    Page.ToString = "Lifetime Oy:n toimialana on ohjelmistojen suunnittelu ja valmistus sekä arvopaperikauppa. Tuotemerkkejämme ovat ohjelmisto- sekä mediatuotantoja tekevä Lifetime Studios, konsultointia tekevä Lifetime Consulting, sekä n.100 kpl omia palvelutuotteita. Toimimme Espoossa ja arvioitu liikevaihtomme kuluvalle tilikaudelle on n. 0,8 m€.";
+}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-33692237-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+@section featured {
+<section class="featured">
+    <div class="content-wrapper">
+        <hgroup class="title">
+            <h1>@Page.Title.</h1>
+            <h2><b>@Page.Title2</b></h2>
+            <h2><b>@Page.Title3</b></h2>
+        </hgroup>
+        <b> @Page.ToString </b> <i>(LSJ Editor in Chief @DateTime.Now.Date) </i>
+        <br><hr>
+
+            To learn more about Lifetime Consulting Products, visit
+            <a href="~/Products.cshtml" title="Products">Products</a>.
+            The page features <mark>Product Specs </mark> and Pricing Model.
+            If you have any questions about Lifetime Consulting Pages, visit
+            
+            To visit Lifetime Studios <a href="http://www.lifetimestudios.org" title="Lifetime Studios">click here.</a>
+        </p>
+    </div>
+</section>
+}
+
+<h3>Avoimia tehtäviä Lifetime Studios, Lifetime Consulting, Lifetime Oy</h3>
+
+<ol class="round">
+    <li class="one">
+        <h5>Lifetime Studios etsii Full-Stack osaajia</h5>
+<p> Microsoft Azure is the foundation cloud service for Lifetime Studios </p>
+<p>ASP.NET Web Pages and the new Razor syntax provide a fast, approachable, and lightweight way to combine server code with HTML
+        to create dynamic web content. Connect to databases, add video, link to social networking sites, and include many more features
+        that let you create beautiful sites using the latest web standards.</p>
+<p> Edit with Visual Studio Online for the best results.</p>
+        <a href="http://www.lifetimestudios.org/contact">Apply now!</a>
+        <a href="http://www.lifetimestudios.org/products" title="Our Products">Learn more from our products and services.</a>.
+    </li>
+
+    <li class="two">
+        <h5>Lifetime Consulting etsii Toimitusjohtajaa</h5>
+<p>Odotamme hakijalta vahvaa osaamista - ja aikaisempaa näyttöä - tuloksen teosta ohjelmistojen valmistus ja tuotanto, tuotantojen johtamiskokemusta, hankeosaamista,
+erittäin aktiivista henkilökohtaista myyntityötä sekä esimerkillistä henkilöstön johtamisotetta. Toimitusjohtajan tulee olla innovatiivinen ja idearikas kehittäjä sekä hyvän
+palvelun että ajankohtaisten tuotteiden konseptoija sekä operatiivisen tuotannon varmistaja. </p>
+<p>Hän vastaa viime kädessä ja aktiivisesti johtaa toimivaa yrityskokonaisuutta vieden ideat myös
+käytäntöön. Hänen vastuullaan on myös markkinointi, jatkuva prosessien sekä tuloksellisen yhteistyön kehittäminen.
+Olethan valmis inspiroimaan digitaalisia elämyksiä ja olemaan itse esimerkin näyttäjä niin asiakkaiden kuin henkilöstönkin suhteen?</p>
+    
+<p>Tarjoamme toimivan tiimin, kokeneen koulutusmyönteisen organisaation tuen sekä erittäin laajat henkilöstöedut. Toimitusjohtaja kuuluu myös yhtiön johtoryhmään ja myöhemmin hänellä on mahdollisuus olla yhtiön partner.
+Ota yhteyttä 00 358 (0) 400 319 010 Consulting Advisor Risto Päärni.</p>
+        <a href="http://www.lifetimestudios.org/contact">Contact Form</a>
+    </li>
+
+    
+</ol>
